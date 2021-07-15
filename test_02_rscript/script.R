@@ -1,0 +1,1 @@
+sample(LETTERS, 10)
