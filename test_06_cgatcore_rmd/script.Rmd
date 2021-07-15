@@ -1,0 +1,21 @@
+---
+title: "Untitled"
+author: "Kevin Rue-Albrecht"
+date: "14/07/2021"
+output: html_document
+params:
+    integer: NA
+    string: NA
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+sprintf("integer is: %i", params$integer)
+```
+
+```{r}
+sprintf("string is: %s", params$string)
+```

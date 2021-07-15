@@ -1,3 +1,10 @@
+# VS code
+.vscode
+# cgat files
 *.err
 *.out
-output.*
+*.log
+# data files
+*.input
+*.lines
+*output*
